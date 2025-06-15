@@ -1,0 +1,9 @@
+# Configuração para o Netlify
+[build]
+  # Diretório onde as funções serverless estão localizadas
+  functions = "netlify/functions"
+
+# Configuração para rodar as funções localmente (opcional, com Netlify CLI)
+[functions]
+  # Define que a função precisa de dependências
+  node_bundler = "esbuild"
